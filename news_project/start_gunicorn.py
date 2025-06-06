@@ -9,6 +9,6 @@ if __name__ == "__main__":
         "gunicorn",
         "news_project.wsgi:application",
         "--bind", "0.0.0.0:8000",
-        "--workers", "3"
     ]
+    print("Staring........")
     run()
