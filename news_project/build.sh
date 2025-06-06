@@ -10,6 +10,8 @@ python ./news_project/manage.py makemigrations
 python ./news_project/manage.py migrate
 
 python ./news_project/manage.py collectstatic --no-input
-cd ./news_project
+
+echo "Finished commands....................."
+
 
 
