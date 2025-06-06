@@ -5,6 +5,5 @@ python3 -m venv venv
 source venv/bin/activate
 
 pip install -r ./requirements.txt
-cd ./news_project/
 
-python ./manage.py collectstatic --no-input
+python ./news_project/manage.py collectstatic --no-input
